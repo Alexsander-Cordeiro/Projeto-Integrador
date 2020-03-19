@@ -17,7 +17,7 @@ h1{
 }
 #Footer{
     background-color:  rgba(0, 0, 0, 0.938);
-    color:rgb(231, 31, 165);
+    color: rgb(252, 71, 110);
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -65,7 +65,7 @@ h1{
     backdrop-filter: saturate(180%) blur(20px);
 }
 .textoNav a {
-    color: rgb(160, 66, 179);
+    color:  rgb(252, 71, 110);
     transition: ease-in-out color .15s;
 }
 .textoNav a:hover {
