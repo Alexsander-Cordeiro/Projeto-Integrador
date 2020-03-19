@@ -2,21 +2,31 @@
 body{
     background-image: linear-gradient(to right,rgb(236, 96, 119),rgb(241, 163, 176),rgb(238, 211, 215));
 } */
+body{
+  font-family: 'Amaranth', sans-serif;
+}
 nav{
-    background-color: lightgray;
+    background-color: rgb(78, 78, 78);
     
 }
-
   
 h1{
-      text-align: center;
-      background-image: url(assets/img/sobre-background.jpg);
-      color: rgb(219, 19, 19);
+   text-align: center;
+   background-image: url(assets/img/sobre-background.jpg);
+   color: rgb(192, 33, 139);
 }
-footer{
-    background-color:  rgba(0, 0, 0, 0.829);
-    color: rgb(230, 54, 171);
+#Footer{
+    background-color:  rgba(0, 0, 0, 0.938);
+    color:rgb(231, 31, 165);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
+
+#btBox{
+  background-color: rgb(161, 42, 122);
+}
+
 .foto > img{
     width: 250px;
     height: 250px;
@@ -34,14 +44,21 @@ footer{
     backdrop-filter: saturate(180%) blur(20px);
 }
 .textoNav a {
-    color: #999;
+    color: rgb(160, 66, 179);
     transition: ease-in-out color .15s;
 }
 .textoNav a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
+    color: rgb(224, 135, 205);
+    text-decoration: none  }
 
+.containerM {
+  width: 80%;
+ justify-content: space-around;
+ }
+
+ .login-canto> button{
+   margin-right: 50px;
+  }
   .foto{
     width: 300px;
     margin: 25px;
@@ -55,13 +72,29 @@ footer{
 
   .flex {
     display: flex;
-    
+    align-items: center;
+  
   }
 
   .flex-wrap {
     flex-wrap: wrap;
     justify-content: center;
      
+  }
+
+  .container > form {
+    width: 300px;
+    text-align: center;
+   
+  }
+  .container{
+      justify-content: space-between;
+  }
+
+  .iframe> h4, p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
 .icone{
@@ -116,9 +149,13 @@ footer{
     transform: rotateY(180deg);
   }
  */
-/* 
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+ 
+@media (max-width: 768px) {
+    .iframe{
+       padding-top: 20px;
+      
     }
-} */
+    .container,.iframe,form{
+      margin: 0 auto;
+    }
+}

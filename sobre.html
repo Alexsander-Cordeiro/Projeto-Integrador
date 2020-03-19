@@ -9,38 +9,64 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/sobre.css">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 
-  <nav class="textoNav sticky-top py-1">
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-2" href="#" aria-label="Product">
-        <svg xmlns="" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round"
-          stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"
-          focusable="false">
-          <title>Product</title>
-          <circle cx="12" cy="12" r="10" />
-          <path
-            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
-        </svg>
-      </a>
-      <a class="py-2 d-none d-md-inline-block" href="index.html">Inicio</a>
-      <a class="py-2 d-none d-md-inline-block" href="sobre.html">Sobre nós</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Parceiros</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-      <a class="py-2 d-none d-md-inline-block" href="cadastro.html">Cadastro</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Ajuda</a>
+  <nav class="textoNav flex sticky-top py-1">
+    
+    <a class="py-2" href="#" aria-label="Product">
+      <svg xmlns="" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round"
+        stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"
+        focusable="false">
+        <title>Product</title>
+        <circle cx="12" cy="12" r="10" />
+        <path
+          d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+      </svg>
+    </a>
+
+    <div class="containerM flex">
+      <!-- "py-2 d-none"  ela esconde o conteúdo -->
+
+      <a class="d-md-inline-block" href="index.html">Inicio</a>
+      <a class="d-md-inline-block" href="sobre.html">Sobre nós</a>
+      <a class="d-md-inline-block" href="#">Parceiros</a>
+      <a class="d-md-inline-block" href="#">Contato</a>
+      <a class="d-md-inline-block" href="#">FAQ</a>
+      <a></a>
+      <a></a>
     </div>
+      <div class="flex login-canto">
+      <button id="btBox"><a class="d-md-inline-block" href="cadastro.html">MONTE SUA BOX</a></button>
+      <a></a>
+      <a class="d-md-inline-block" href="#">Login</a>
+    </div>
+    
   </nav>
 
-  
+  <!-- <header class="header">
+    
+      <nav class="menu">
+        <a href=""> <img src="assets/img/Fancy Box1.png" style="width: 50px; height: 50px;" alt=""></a>
+         <div> <a href="">Home</a></div>
+         <div><a href="">Produtos</a></div>
+         <div><a href="">Sobre Nós</a></div>
+         <div class="cantoDireito"><button id="btBox"><a href="">Monte Sua BOX</a></button></div>
+         <div class="cantoDireito"><a href="">Login</a></div>
+     
+
+      </nav>
+
+   </header> -->
 
 
+  <br><br>
   <br>
- 
+  <br>
     <section class="caixa">
      
       <section class="container-projeto">
@@ -96,139 +122,119 @@
 
 
   <!-- Footer -->
+  
+<div id="Footer">
+
   <footer class="page-footer font-small special-color-dark pt-4">
-
-    <!-- Footer -->
-    <footer class="page-footer font-small stylish-color-dark pt-4">
-
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left">
-
-        <!-- Grid row -->
-        <div class="row">
-
-
-
-          <hr class="clearfix w-100 d-md-none">
-
-
-          <!-- Grid column -->
-          <div id="footerDiv" class="col-md-2 mx-auto">
-
-            <ul class="list-unstyled list-inline text-center py-2 text-left">
-              <li class="list-inline-item ">
-                <h5 class="mb-1">CONHEÇA MAIS A FANCYBOX: </h5>
-              </li>
-              <li class="list-inline-item">
-                <button id="botao"> <a href=""> Registre-se!</a></button>
-                <!-- <a href="#!" class="btn btn-danger btn-rounded">Registre-se!</a> -->
-              </li>
-            </ul>
-
+  
+      <!-- Footer -->
+      <footer class="page-footer font-small stylish-color-dark pt-4">
+  
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+  
+          <!-- Grid row -->
+          <div class="row">
+  
+  
+  
+            <hr class="clearfix w-100 d-md-none">
+  
+  
+            <!-- Grid column -->
+            <div id="footerDiv" class="col-md-2 mx-auto">
+  
+              <ul class="list-unstyled list-inline text-center py-2 text-left">
+                <li class="list-inline-item ">
+                  <h5 class="mb-1">CONHEÇA MAIS A FANCYBOX: </h5>
+                </li>
+                <li class="list-inline-item">
+                  <button id="botao"> <a href=""> Registre-se!</a></button>
+                  <!-- <a href="#!" class="btn btn-danger btn-rounded">Registre-se!</a> -->
+                </li>
+              </ul>
+  
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+  
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contatos</h5>
+  
+              <ul class="list-unstyled">
+  
+                <li>
+                  <p>@fancybox</p>
+                </li>
+                <li>
+                  <p>0800 4002 8922</p>
+                </li>
+                <li>
+                  <p>fancybox@outlook.com</p>
+                </li>
+              </ul>
+  
+            </div>
+            <!-- Grid column -->
+  
           </div>
-          <!-- Grid column -->
-
-      <!-- Grid column -->
-          <div class="col-md-2 mx-auto">
-
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contatos</h5>
-
-            <ul class="list-unstyled">
-
-              <li>
-                <p>@fancybox</p>
-              </li>
-              <li>
-                <p>0800 4002 8922</p>
-              </li>
-              <li>
-                <p>fancybox@outlook.com</p>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
+          <!-- Grid row -->
+  
         </div>
-        <!-- Grid row -->
-
-      </div>
-
-
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <i class="fab fa-facebook-f"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <i class="fab fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-            <i class="fab fa-google-plus-g"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
-            <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-dribbble mx-1">
-            <i class="fab fa-dribbble"> </i>
-          </a>
-        </li>
-      </ul>
-      <!-- Social buttons -->
-
-      <!-- Copyright -->
-
-      <div class="container_sobre">
-
-          <!-- icones da rede social -->
-
-        <!-- <div class="row justify-content-md-center">
-
-            <div class="rede" id="facebook" class="col-sm-2>
-              <img class="icone" src="assets/img/facebook.png" alt="">
+  
+  
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a class="btn-floating btn-fb mx-1">
+              <i class="fab fa-facebook-f"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-tw mx-1">
+              <i class="fab fa-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-gplus mx-1">
+              <i class="fab fa-google-plus-g"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-li mx-1">
+              <i class="fab fa-linkedin-in"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-dribbble mx-1">
+              <i class="fab fa-dribbble"> </i>
+            </a>
+          </li>
+        </ul>
+        <!-- Social buttons -->
+  
+        <!-- Copyright -->
+  
+        <div class="flex flex-wrap">
+  
+  
+          <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+  
             </div>
-            <div class="rede" id="twitter" class="col-sm-2>
-              <img class="icone" src="assets/img/twitter.png" alt="">
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+              <a href="https://mdbootstrap.com/"> FancyBox</a>
             </div>
-            <div class="rede" id="instagram" class="col-sm-2>
-              <img class="icone" src="assets/img/instagram.png" alt="">
-            </div>
-            <div class="rede" id="plus" class="col-sm-2>
-              <img class="icone" src="assets/img/plus.png" alt="">
-            </div>
-            <div class="rede" id="snap" class="col-sm-2>
-              <img class="icone" src="assets/img/snap.png " alt="">
-            </div>
-            <div class="rede" id="youtube" class="col-sm-2>
-              <img class="icone" src="assets/img/youtube.png" alt=""></div>
-
-        </div> -->
-
-        
-
-        <div class="row justify-content-md-center">
-          <div class="col-md-auto">
-
-         </div>
-          <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://mdbootstrap.com/"> FancyBox</a>
           </div>
         </div>
-      </div>
-      <!-- Copyright -->
-
-    </footer>
-    <!-- Footer -->
+        <!-- Copyright -->
+  
+      </footer>
+      <!-- Footer -->
+  </div>
+  
 
 
 
