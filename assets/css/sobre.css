@@ -21,10 +21,31 @@ h1{
     bottom: 0;
     width: 100%;
     text-align: center;
+    position: static;
 }
 
-#btBox{
-  background-color: rgb(161, 42, 122);
+.faq {
+  background: rgb(192, 33, 139);
+}
+
+.faq button{
+  color: blanchedalmond;
+
+}
+
+#btBox {
+  background-color:rgb(252, 71, 110);
+  color: white;
+  margin-right: 10px;
+
+}
+#btBox:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  background-color: rgb(241, 113, 141);
+  transition: ease-in-out color .15s;
+  color:white;
+  text-decoration: none;
 }
 
 .foto > img{
@@ -95,6 +116,11 @@ h1{
     text-align: center;
     margin: 0;
     padding: 0;
+  }
+
+  .container-faq {
+    width: 50%;
+    margin: 0 auto;
   }
 
 .icone{
